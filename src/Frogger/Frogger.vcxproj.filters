@@ -91,4 +91,9 @@
       <Filter>Model</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\res\lvl\Easy.xml">
+      <Filter>View</Filter>
+    </Xml>
+  </ItemGroup>
 </Project>

@@ -20,7 +20,24 @@ namespace GameEngine {
 		R.LoadFont<FontID::ARIAL>("fnt/arial.ttf", 40);
 		R.LoadFont<FontID::CANDY>("fnt/candy.ttf", 50);
 		R.LoadFont<FontID::FACTORY>("fnt/candsb.ttf", 80);
-
+		R.LoadTexture<ObjectID::BARRO>("gfx/barro.png");
+		R.LoadTexture<ObjectID::CAMION>("gfx/camion.png");
+		R.LoadTexture<ObjectID::COCHE>("gfx/coche.png");
+		R.LoadTexture<ObjectID::COCODRILO>("gfx/cocodrilo.png");
+		R.LoadTexture<ObjectID::EXCAVADPRA>("gfx/excavadora.png");
+		R.LoadTexture<ObjectID::META>("gfx/meta.png");
+		R.LoadTexture<ObjectID::MOSCA>("gfx/mosca.png");
+		R.LoadTexture<ObjectID::NUTRIA>("gfx/nutria.png");
+		R.LoadTexture<ObjectID::RALLY1>("gfx/rally1.png");
+		R.LoadTexture<ObjectID::RALLY2>("gfx/rally2.png");
+		R.LoadTexture<ObjectID::RANA>("gfx/rana.png");
+		R.LoadTexture<ObjectID::RANA_FEMENINA>("gfx/rana_femenina.png");
+		R.LoadTexture<ObjectID::SERPIENTE>("gfx/serpiente.png");
+		R.LoadTexture<ObjectID::TITULO>("gfx/titulo.png");
+		R.LoadTexture<ObjectID::TORTUGA>("gfx/tortuga.png");
+		R.LoadTexture<ObjectID::TRONCO_CORTO>("gfx/tronco_corto.png");
+		R.LoadTexture<ObjectID::TRONCO_LARGO>("gfx/tronco_largo.png");
+		R.LoadTexture<ObjectID::TRONCO_MEDIANO>("gfx/tronco_mediano.png");
 		R.LoadTexture<ObjectID::BG_00>("gfx/frogger.jpg");
 	}
 	//! Adds the game scenes into the Scene Manager and decides which is the first screen

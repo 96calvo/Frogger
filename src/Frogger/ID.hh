@@ -9,7 +9,9 @@
 
 // Enum ID used to identify each Game Object in the Game
 enum class ObjectID : int {
-	BG_00,  // Background IDs
+	BARRO, CAMION, COCHE,COCODRILO,EXCAVADPRA,META,MOSCA,NUTRIA,RALLY1,RALLY2,RANA,RANA_FEMENINA,SERPIENTE,TITULO,TORTUGA,
+	TRONCO_CORTO, TRONCO_LARGO, TRONCO_MEDIANO,
+	BG_00  // Background IDs
 
 };
 inline std::ostream &operator<<(std::ostream &os, const ObjectID &id) { return os << int(id); };
