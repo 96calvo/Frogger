@@ -14,7 +14,7 @@ using namespace Logger;
 #define CELL_WIDTH 80
 #define CELL_HEIGHT 80
 
-GameScene::GameScene(void) : (, CELL_WIDTH, CELL_HEIGHT){
+GameScene::GameScene(void) /*: (, CELL_WIDTH, CELL_HEIGHT)*/{
 	m_background = { { 0, 0, W.GetWidth(), W.GetHeight() }, ObjectID::BG_00 };
 }
 
