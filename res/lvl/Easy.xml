@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Easy>
+  
+  
+  <Vehiculos>
+    
+    
+    <Coche>
+      <Sprite> "gfx/coche.jpg"</Sprite>
+      <Posicion> </Posicion>
+      <Velocidad>  </Velocidad>
+    </Coche>
+    
+    
+    <Excavadora>
+      <Sprite> "gfx/excavadora.jpg"</Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Excavadora>
+    
+    
+    <Rally1>
+      <Sprite>"gfx/rally1.jpg" </Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Rally1>
+
+
+    <Rally2>
+      <Sprite>"gfx/rally2.jpg" </Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Rally2>
+    
+    
+    <Camion>
+      <Sprite> "gfx/camion.jpg" </Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Camion>
+    
+    
+  </Vehiculos>
+  
+  
+</Easy>
