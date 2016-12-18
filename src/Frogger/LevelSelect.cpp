@@ -12,6 +12,7 @@ using namespace Logger;
 
 LevelSelect::LevelSelect(void) {
 	m_background = { { 0, 0, W.GetWidth(), W.GetHeight() }, ObjectID::BG_00 };
+	titulo = { { W.GetWidth() / 6, W.GetHeight() / 8, W.GetWidth() - 200, W.GetHeight() - 700 }, ObjectID::TITULO };
 }
 
 LevelSelect::~LevelSelect(void) {
@@ -34,17 +35,17 @@ void LevelSelect::Update(void) {
 		Println("mxn: ", IM.GetMouseCoords());
 	}
 
-	if (IM.IsMouseDown<MOUSE_BUTTON_LEFT>() && IM.GetMouseCoords().x > 456 && IM.GetMouseCoords().x < 567 && IM.GetMouseCoords().y > 268 && IM.GetMouseCoords().y < 344) {  //Apretar el boto de play
+	if (IM.IsMouseDown<MOUSE_BUTTON_LEFT>() && IM.GetMouseCoords().x > 340 && IM.GetMouseCoords().x < 428 && IM.GetMouseCoords().y > 282 && IM.GetMouseCoords().y < 329) {  //Apretar el boto de play
 		SM.SetCurScene <GameScene>();
 		mouseCoords = IM.GetMouseCoords();
 	}
 
-	if (IM.IsMouseDown<MOUSE_BUTTON_LEFT>() && IM.GetMouseCoords().x > 463 && IM.GetMouseCoords().x < 559 && IM.GetMouseCoords().y > 421 && IM.GetMouseCoords().y < 498) {  //Apretar el boto de exit
+	if (IM.IsMouseDown<MOUSE_BUTTON_LEFT>() && IM.GetMouseCoords().x > 315 && IM.GetMouseCoords().x < 455 && IM.GetMouseCoords().y > 435 && IM.GetMouseCoords().y < 480) {  //Apretar el boto de exit
 		SM.SetCurScene <GameScene>();
 		mouseCoords = IM.GetMouseCoords();
 	}
 
-	if (IM.IsMouseDown<MOUSE_BUTTON_LEFT>() && IM.GetMouseCoords().x > 470 && IM.GetMouseCoords().x < 567 && IM.GetMouseCoords().y > 590 && IM.GetMouseCoords().y < 635) {  //Apretar el boto de exit
+	if (IM.IsMouseDown<MOUSE_BUTTON_LEFT>() && IM.GetMouseCoords().x > 341 && IM.GetMouseCoords().x < 591 && IM.GetMouseCoords().y > 427 && IM.GetMouseCoords().y < 637) {  //Apretar el boto de exit
 		SM.SetCurScene <GameScene>();
 		mouseCoords = IM.GetMouseCoords();
 	}
@@ -59,9 +60,7 @@ void LevelSelect::Update(void) {
 
 void LevelSelect::Draw(void) {
 	m_background.Draw(); // Render background
-	GUI::DrawTextShaded<FontID::ARIAL>("Frogger",
-	{ W.GetWidth() >> 1, int(W.GetHeight()*.1f), 1, 1 },
-	{ 190, 0, 160 }, { 50, 200, 230 }); // Render score that will be different when updated
+	titulo.Draw();
 	GUI::DrawTextShaded<FontID::ARIAL>("Easy",
 	{ W.GetWidth() >> 1, int(W.GetHeight()*.4f), 1, 1 },
 	{ 190, 0, 160 }, { 50, 200, 230 }); // Render score that will be different when updated

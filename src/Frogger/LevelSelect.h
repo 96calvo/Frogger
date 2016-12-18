@@ -14,4 +14,5 @@ public:
 	void Draw(void) override;
 private:
 	Sprite m_background;
+	Sprite titulo;
 };
