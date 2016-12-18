@@ -11,53 +11,74 @@
       <Posicion> </Posicion>
       <Velocidad>  </Velocidad>
     </Coche>
-    
-    
+        
     <Excavadora>
       <Sprite> "gfx/excavadora.png"</Sprite>
       <Posicion> </Posicion>
       <Velocidad> </Velocidad>
-    </Excavadora>
-    
-    
+    </Excavadora>   
+       
     <Rally1>
       <Sprite>"gfx/rally1.png" </Sprite>
       <Posicion> </Posicion>
       <Velocidad> </Velocidad>
     </Rally1>
-
-
+    
     <Rally2>
       <Sprite>"gfx/rally2.png" </Sprite>
       <Posicion> </Posicion>
       <Velocidad> </Velocidad>
     </Rally2>
-    
-    
+       
     <Camion>
       <Sprite> "gfx/camion.png" </Sprite>
       <Posicion> </Posicion>
       <Velocidad> </Velocidad>
     </Camion>
-    
+       
     <Tronco_corto>
       <Sprite> "gfx/camion.png" </Sprite>
       <Posicion> </Posicion>
       <Velocidad> </Velocidad>
     </Tronco_corto>
-    
+        
     <Tronco_largo>
       <Sprite> "gfx/tronco_largo.png" </Sprite>
       <Posicion> </Posicion>
       <Velocidad> </Velocidad>
     </Tronco_largo>
-    
+     
     <Tronco_mediano>
       <Sprite> "gfx/tronco_mediano.png" </Sprite>
       <Posicion> </Posicion>
       <Velocidad> </Velocidad>
     </Tronco_mediano>
+       
+    <Cocodrilo>
+      <Sprite> "gfx/cocodrilo.png" </Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Cocodrilo>
+          
+    <Nutria>
+      <Sprite> "gfx/nutria.png" </Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Nutria>
     
+    <Serpiente>
+      <Sprite> "gfx/serpiente.png" </Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Serpiente>
+    
+    <Tortuga>
+      <Sprite> "gfx/tortuga.png" </Sprite>
+      <Posicion> </Posicion>
+      <Velocidad> </Velocidad>
+    </Tortuga>
+  
+  
   </Vehiculos>
   
   
@@ -65,6 +86,7 @@
     <Sprite> "gfx/rana.png" </Sprite>
     <Posicion> </Posicion>
   </PJ>
+  
   
   <Escenario>
     
